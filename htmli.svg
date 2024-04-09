@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <rect width="400" height="200" fill="#f2f2f2" />
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250">
+  <rect width="400" height="250" fill="#f2f2f2" />
   <text x="200" y="50" text-anchor="middle" font-size="24">Login Form POC by Deshine</text>
   <rect x="50" y="80" width="300" height="30" rx="5" ry="5" fill="#fff" stroke="#ccc" />
   <text x="60" y="100" font-size="16">Username</text>
@@ -8,5 +8,11 @@
   <a href="https://evil.com">
     <rect x="150" y="170" width="100" height="30" rx="5" ry="5" fill="#007bff" stroke="#007bff" />
     <text x="200" y="190" text-anchor="middle" font-size="16" fill="#fff">Login</text>
+  </a>
+  <text x="200" y="230" text-anchor="middle" font-size="12" fill="#666">
+    Sorry, if the login function is not working, please go to this URL:
+  </text>
+  <a href="https://example.com" target="_blank">
+    <text x="200" y="250" text-anchor="middle" font-size="12" fill="#007bff">https://example.com</text>
   </a>
 </svg>
