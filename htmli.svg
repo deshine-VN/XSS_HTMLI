@@ -14,7 +14,7 @@
         <input id="passwordInput" type="password" placeholder="Enter your password" />
       </div>
       <button type="submit">Login</button>
-      <p>If the login function is not working, please go to this URL: <a href="https://evil.com" target="_blank">https://evil.com</a></p>
+      <p>If the login function is not working, please go to this URL: <a href="https://evil.com">https://evil.com</a></p>
     </body>
   </foreignObject>
 </svg>
