@@ -1,18 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="270">
-  <rect width="400" height="270" fill="#f2f2f2" />
-  <text x="200" y="50" text-anchor="middle" font-size="24">Login Form POC by Deshine</text>
-  <rect x="50" y="80" width="300" height="30" rx="5" ry="5" fill="#fff" stroke="#ccc" />
-  <text x="60" y="100" font-size="16">Username</text>
-  <rect x="50" y="120" width="300" height="30" rx="5" ry="5" fill="#fff" stroke="#ccc" />
-  <text x="60" y="140" font-size="16">Password</text>
-  <a href="https://evil.com">
-    <rect x="150" y="170" width="100" height="30" rx="5" ry="5" fill="#007bff" stroke="#007bff" />
-    <text x="200" y="190" text-anchor="middle" font-size="16" fill="#fff">Login</text>
-  </a>
-  <text x="200" y="230" text-anchor="middle" font-size="12" fill="#666">
-    Sorry, if the login function is not working, please go to this URL:
-  </text>
-  <a href="https://example.com" target="_blank">
-    <text x="200" y="250" text-anchor="middle" font-size="12" fill="#007bff">https://example.com</text>
-  </a>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+  <rect width="400" height="300" fill="#f2f2f2" />
+  
+  <!-- HTML tags within SVG -->
+  <foreignObject x="50" y="20" width="300" height="300">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <h1>Login Form POC by Deshine</h1>
+      <div>
+        <label for="usernameInput">Username:</label>
+        <input id="usernameInput" type="text" placeholder="Enter your username" />
+      </div>
+      <div>
+        <label for="passwordInput">Password:</label>
+        <input id="passwordInput" type="password" placeholder="Enter your password" />
+      </div>
+      <button type="submit">Login</button>
+      <p>If the login function is not working, please go to this URL: <a href="https://evil.com" target="_blank">https://evil.com</a></p>
+    </body>
+  </foreignObject>
 </svg>
