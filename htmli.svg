@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250">
-  <rect width="400" height="250" fill="#f2f2f2" />
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="270">
+  <rect width="400" height="270" fill="#f2f2f2" />
   <text x="200" y="50" text-anchor="middle" font-size="24">Login Form POC by Deshine</text>
   <rect x="50" y="80" width="300" height="30" rx="5" ry="5" fill="#fff" stroke="#ccc" />
   <text x="60" y="100" font-size="16">Username</text>
