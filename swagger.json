@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/deshine-VN/XSS_HTMLI/refs/heads/main/swagger.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/deshine-VN/XSS_HTMLI/refs/heads/main/swagger.yaml",
+            "name": "Foo"
+        }
+    ]
+}
