@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    Hi, im deshine <a href='https://evil.com'><br>Please login here to continue</a>
+    Hi, im deshine from Hackerone<br><img src='https://raw.githubusercontent.com/deshine-VN/XSS_HTMLI/refs/heads/main/deshine.jpg'><a href='https://hackerone.com/leaderboard/country?year=2022&owasp=a1&country=VN&assetType=WEB_APP&tab=all'><br>Please login here to continue</a>
 
   version: production
 basePath: /JSSResource/
